@@ -17,7 +17,7 @@ if (isset($_GET['user_id'])) {
 
 	$SlackUsername = $row['SlackUsername'];
 	$age = $row['age'];
-	$backend = $row['backend'];
+	$backend = true;
     $bio = $row['bio'];
 
 	      
