@@ -31,7 +31,7 @@ if (isset($_GET['user_id'])) {
 	}
 
 function response($SlackUsername,$age,$backend,$bio){
-	$response['SlackUsername'] = $SlackUsername;
+	$response['slackUsername'] = $SlackUsername;
 	$response['age'] = $age;
 	$response['backend'] = $backend;
 	$response['bio'] = $bio;
